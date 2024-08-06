@@ -1,17 +1,17 @@
 # Company Information
-company_name: D P Bennett & Associates Ltd.
-domain_name: adassa.com.jm
+company_name: Adassa Academy
+domain_name: adassa.adassa.com.jm
 address_line: Kingston
 country: Jamaica
 company_email: mail@adassa.com.jm
-description: This is the AES, Inc. website.
-meta_description: business management system, engineering, information technology, personal development, personal products
+description: This is the Adassa Academy website.
+meta_description: online education, e-learning, primary and secondary school mathematics, CSEC, CXC 
 
 # Site Information
-title: Adassa
+title: Adassa Academy
 author: Desmond Bennett
 baseurl: ""
-url: https://adassa.com.jm
+url: https://academy.adassa.com.jm
 
 # Social Links
 facebook_link: https://www.facebook.com/desmondpbennett
@@ -19,7 +19,7 @@ twitter_link: https://twitter.com/DPB_and_A
 github_link: https://github.com/Adassa-Enterprise-Solutions/
 
 disqus: false
-disqus_shortname: adassa
+disqus_shortname: adassa_academy
 
 paginate: 20
 

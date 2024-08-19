@@ -313,6 +313,72 @@ header .logo p {
     margin: 1rem 1rem auto 1rem;
 }
 
+/* Courses */
+
+.courses {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin: 3rem auto 5rem auto;
+}
+
+.courses div {
+    width: 450px;
+    background-color: #ffffff;
+    margin: 1rem;
+    padding: 2rem 0;
+    border-radius: 20px;
+    box-shadow: 0px 0px 35px rgb(140 152 164 / 13%);
+    display: flex;
+    flex-direction: column;
+}
+
+.courses p {
+    margin-top: 2rem;
+}
+
+.courses .icon {
+    background-color: var(--theme-color);
+    width: 70px;
+    height: 70px;
+    font-size: 4rem;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+}
+
+.courses .icon:hover {
+    transform: scale(1.1);
+    transition: all 0.5s cubic-bezier(0.165, 0.84, 0.44, 1);
+    cursor: pointer;
+}
+
+.courses .title {
+    font-weight: 500;
+    margin-top: 1.5rem;
+    margin-left: 1.5rem;
+    position: absolute;    
+}
+
+.courses .description {
+    font-size: 1.6rem;
+    color: var(--theme-text);
+    margin: 1rem 1rem auto 1rem;
+}
+
+.overlay {
+  position: absolute;
+  top: 50;
+  left: 0;  
+  width: 100%;
+  height: 100%;
+  color: black;
+  text-align: center;
+  line-height: 100%;
+}
+
 /* Products */
 
 .products {
@@ -613,6 +679,10 @@ footer .bi-youtube {
 
 .post-feature-image {
     width: 50%;
+}
+
+.course-feature-image {
+    width: 100%;
 }
 
 /* Bootstrap customization */

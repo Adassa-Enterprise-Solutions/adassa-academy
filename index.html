@@ -3,12 +3,33 @@ layout: home-layout
 title: Adassa Academy
 ---
 
-<section class="introduction">
-    <div class="intro-section container">
-        <div class="intro-text">
-            <p class="tag-line">
-                Coming soon!
-            </p>           
-        </div>
+<section id="featured-courses">
+    <div class="centred">
+        <p class="mt-5" 
+           style="font-weight: bold;font-size: xx-large;color: darkgray;">
+           Featured Courses
+        </p> 
     </div>
+    <div class="courses">
+        {% for course in site.data.courses %}
+        <div class="centred">
+           
+            <h1 class="title" >
+                <a href="{{course.link}}" style="color: white;">
+                    {{course.name}}
+                </a>
+            </h1>
+
+            <a href="{{course.link}}">
+                <img class="img-fluid mb-3 course-feature-image" 
+                     alt="{{course.name}}"
+                     src="{{course.image}}">
+            </a>
+
+            <a href="{{course.link}}" class="btn">Register</a>
+            
+        </div>
+        {% endfor %}                
+    </div>          
 </section>
+

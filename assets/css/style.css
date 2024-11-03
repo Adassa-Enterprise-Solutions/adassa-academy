@@ -357,26 +357,27 @@ header .logo p {
 
 .courses .title {
     font-weight: 500;
+    font-size: 1.5rem;
     margin-top: 1.5rem;
     margin-left: 1.5rem;
-    position: absolute;    
+    position: absolute;
+    width: 300px;
 }
 
 .courses .description {
-    font-size: 1.6rem;
-    color: var(--theme-text);
+    font-size: 1.2rem;
     margin: 1rem 1rem auto 1rem;
 }
 
 .overlay {
-  position: absolute;
-  top: 50;
-  left: 0;  
-  width: 100%;
-  height: 100%;
-  color: black;
-  text-align: center;
-  line-height: 100%;
+    position: absolute;
+    top: 50px;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    color: black;
+    text-align: center;
+    line-height: 100%;
 }
 
 /* Products */
@@ -692,7 +693,7 @@ footer .bi-youtube {
 }
 
 .nav-item-highlighted {
-    color: whitesmoke; 
+    color: whitesmoke;
     background-color: lightblue;
     padding-left: 0.25em;
     padding-right: 0.25em;

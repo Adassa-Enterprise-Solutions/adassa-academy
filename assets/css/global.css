@@ -35,6 +35,7 @@ body {
 
 .centred {
      text-align: center;
+     align-items: center;
 }
 
 .list-group-item {

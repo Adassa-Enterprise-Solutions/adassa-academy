@@ -1,0 +1,40 @@
+---
+layout: default-layout
+title: Adassa Academy - Classrooms for Business and personal education.
+description: This is the Adassa Academy classroom that features educational content for your personal and business needs.
+---
+
+<section id="featured-classrooms">
+    <div class="centred">
+        <h1 class="mt-5" 
+            style="font-weight: bold;font-size: xx-large;color: darkgray;">
+            Classrooms
+        </h1> 
+    </div>
+    <div class="classrooms">
+        {% for classroom in site.data.classrooms %}
+        <div class="centred">
+
+            <span class="title">
+                <a href="{{classroom.link}}" style="color: white;">
+                    {{classroom.name}}
+                </a>
+                <br/>
+                <span class="description">
+                    <a href="{{classroom.link}}" style="color: white;">
+                        {{classroom.description}}
+                    </a>
+                </span>
+            </span>
+
+            <a href="{{classroom.link}}">
+                <img class="img-fluid mb-3 classroom-feature-image" 
+                     alt="{{classroom.name}}"
+                     src="{{classroom.image}}">
+            </a>
+
+        </div>
+        {% endfor %}                
+    </div>          
+</section>
+

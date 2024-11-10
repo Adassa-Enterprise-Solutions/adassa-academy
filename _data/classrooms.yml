@@ -1,0 +1,22 @@
+## Courses.
+---
+- name: Job Management & Tracking System (Core)
+  categories: Job Management & Tracking System
+  description: The core module of Job Management & Tracking System
+  link: https://classroom.google.com/c/Njg1MDM5NDcwNjg0?cjc=fdlwvvb
+  image: https://www.gstatic.com/classroom/themes/img_graduation.jpg  
+- name: Financial Management (FM)
+  categories: Job Management & Tracking System
+  description: The Financial Management module of Job Management & Tracking System
+  link: https://classroom.google.com/c/Njg2NjMwNTg2NzQz?cjc=3sgsntx
+  image: https://gstatic.com/classroom/themes/Honors.jpg   
+- name: Purchase Management (Procurement)
+  categories: Job Management & Tracking System
+  description: The Purchase Management module of Job Management & Tracking System
+  link: https://classroom.google.com/c/Njg2NjM1NzA4NzI2?cjc=5vgenlv
+  image: https://gstatic.com/classroom/themes/img_bookclub.jpg  
+- name: Standards Compliance (SC)
+  categories: Job Management & Tracking System
+  description: The Standards Compliance module of Job Management & Tracking System
+  link: https://classroom.google.com/c/Njg2NjM2MDIzNDY2?cjc=3zfiodx
+  image: https://gstatic.com/classroom/themes/img_reachout.jpg   

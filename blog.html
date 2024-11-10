@@ -1,23 +1,22 @@
 ---
 layout: blog-layout
-title: Adassa Academy Blog
-description: This is the Adassa blog.
+title:  Welcome to the official e-learning blog of Adassa Academy.
+description: This is the Adassa Academy official blog that contains informative and innovative posts for your educational needs.
 ---
 
 <div class="container blog-section font-size-1-5em">
-    <div class="row">
 
+    <h1>Blog</h1>
+    <div class="hline"></div>
+    <br/>
+    <div class="row">
         <!-- BLOG POSTS LIST -->
         <div class="col-lg-8">
 
             {% for post in site.posts limit:28 %}
-            <!-- Blog Post -->
+            <!-- Blog Post -->            
             <a href="{{ post.url | prepend: site.baseurl }}">
-                <img class="img-fluid mb-3 post-feature-image" 
-                     src="{{ "/assets/media/blog/" | prepend: site.baseurl }}{{ post.img }}">
-            </a>
-            <a href="{{ post.url | prepend: site.baseurl }}">
-                <h1 class="ctitle">{{ post.title }}</h1>
+                <h2 class="ctitle">{{ post.title }}</h2>
             </a>
             <p><em>{{ post.date | date: "%b %-d, %Y" }}. | by {{ post.author }}</em></p>
             {{ post.excerpt }}

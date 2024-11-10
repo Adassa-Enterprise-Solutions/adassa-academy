@@ -4,28 +4,51 @@ title: Adassa Academy - Business and personal education
 description: This is the Adassa Academy website that features educational content for your personal and business needs.
 ---
 
+<section class="introduction">
+
+    <div class="intro-section container">
+        <div class="intro-text">           
+            <h1>Our Mission</h1>
+            <p class="description">
+                To provide learners worldwide with access to quality education that 
+                inspires, informs, and prepares them for the future.
+            </p>
+            <a href="/contact" class="btn">Contact Us</a>
+
+        </div>
+        <div class="featured" style="height: 200px;">
+            <div class="centred">                    
+                <h2>Recent Post</h2>                    
+
+                {% for post in site.posts limit:1 %}
+                <a href="{{ post.url }}">
+                    <h3 style="color: steelblue;">
+                        {{ post.title }}
+                    </h3>
+                </a>
+                {% endfor %}
+
+            </div>
+        </div>                    
+    </div>        
+</section>
+
 <section id="featured-courses">
     <div class="centred">
-        <h1 class="mt-5" 
-            style="font-weight: bold;font-size: xx-large;color: darkgray;">
-            Our Courses
-        </h1> 
+        <h2 class="mt-5" 
+            style="font-weight: bold;color: darkgray;">
+            Featured Courses
+        </h2> 
     </div>
     <div class="courses">
         {% for course in site.data.courses %}
         <div class="centred">
 
-            <span class="title">
-                <a href="{{course.link}}" style="color: white;">
+            <h2 class="title">
+                <a href="{{course.link}}" style="color: black;">
                     {{course.name}}
-                </a>
-                <br/>
-                <span class="description">
-                    <a href="{{course.link}}" style="color: white;">
-                        {{course.description}}
-                    </a>
-                </span>
-            </span>
+                </a>            
+            </h2>
 
             <a href="{{course.link}}">
                 <img class="img-fluid mb-3 course-feature-image" 

@@ -1,8 +1,8 @@
 ---
 layout: post-layout
-title: The Rise of Generative AI - Shaping the Future of Creativity and Innovation.
+title: This blog post speaks about the rise of Generative AI.
 author: Desmond Bennett
-description: The Rise of Generative AI - Shaping the Future of Creativity and Innovation.
+description: The Rise of Generative AI - Shaping the Future of Creativity and Innovation. Get involved with the AI revolution!
 date: 2024-11-09
 categories:
 - Artificial Intelligence

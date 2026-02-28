@@ -5,7 +5,8 @@
     --theme-text: black;
     --theme-text-dull: darkgray;
     --theme-background-color: white;
-    --theme-header-color: whitesmoke;
+    --theme-color: white;
+    --theme-header-color: #d3f0fd;
     --theme-footer-color: seashell;
     --theme-color: white;
     --theme-color-hover: steelblue;
@@ -35,7 +36,6 @@ body {
 
 .centred {
      text-align: center;
-     align-items: center;
 }
 
 .list-group-item {
